@@ -1,4 +1,4 @@
-# Aplicacion de Gestión de Under Bone (Clon de Under Armour)
+# Aplicación de Gestión de Under Bone (Clon de Under Armour)
 
 ### Descripción del sistema
 
@@ -6,7 +6,7 @@ Esta es una aplicación web diseñada para gestionar los productos de una tienda
 
 ### Funcionalidades
 
-- **Agregar**: Creación de productos y categorias por medio de un formulario
+- **Agregar**: Creación de productos y categorías por medio de un formulario
 
 - **Gestión de Productos**: Edición, eliminación y listado de productos
 
@@ -14,7 +14,7 @@ Esta es una aplicación web diseñada para gestionar los productos de una tienda
 
 - **Registro de Usuario**: Creación de usuario por medio de un formulario
 
-- **Inicio de Sesion**: Inicio de Sesion para gestionar productos y categorias
+- **Inicio de Sesión**: Inicio de Sesión para gestionar productos y categorías
 
 - **Diseño Responsive**: Interfaz amigable a dispositivos móviles y de escritorios
 
@@ -152,7 +152,7 @@ Rutas para Usuarios
 
     POST /api/usuarios/registro - <Registrar un nuevo usuario.>
 
-    POST /api/usuarios/iniciarsesion - <Inicio de sesion del usuario>
+    POST /api/usuarios/iniciarsesion - <Inicio de sesión del usuario>
 
     GET /api/usuarios/ - <Obtener todos los usuarios.>
 
@@ -162,4 +162,19 @@ Rutas para Usuarios
 
 ## Evidencias de Funcionamiento
 
-![Demostración de la interfaz visual](/evidencias/image832.png)
+### Agregar Productos y Categorías
+
+![Demostración de la interfaz visual add](/img/add.png)
+
+### Lista de Productos y Categorías
+
+![Demostración de la interfaz visual lista](/img/lista.png)
+
+### Edición de Productos y Categorias
+
+![Demostración de la interfaz visual edit](/img/edit.png)
+
+### Registro e Inicio de Sesión
+
+![Demostración de la interfaz visual user](/img/user.png)
+
