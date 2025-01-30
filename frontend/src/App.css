@@ -135,11 +135,11 @@ h1{
 }
 
 .lista ul li{
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   padding: 1%;
   width: 14%;
   min-width: auto;
-  height: 6dvh;
 }
 
 .lista li {
@@ -154,6 +154,8 @@ h1{
   padding: 0.2rem;
   color: white;
   background-color: #f56565;
+  margin: 0.1rem;
+
 }
 
 .button-edit{
@@ -161,7 +163,7 @@ h1{
   padding: 0.2rem;
   color: white;
   background-color: #ff9a42;
-  margin: 0.2rem;
+  margin: 0.1rem;
 }
 
 .modal {
