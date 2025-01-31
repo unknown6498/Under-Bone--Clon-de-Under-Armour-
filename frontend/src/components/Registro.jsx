@@ -36,7 +36,7 @@ const Registro = () => {
             });
             if (resultadoUsuario) {
                 setMensajeExito("Registro exitoso");
-                navigate('/signin');
+                navigate('/login');
             }
         } catch (err) {
             setMensajeError("Error al enviar los datos");
